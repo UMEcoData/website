@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;600&family=Open+Sans:ital,wght@0,300;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Press+Start+2P&display=swap');
 
 /* Background image styling */
 body {
@@ -173,6 +174,11 @@ h4 {
   font-style: italic;
 }
 
+h5 {
+  font-family: 'Abril Fatface', cursive;
+  font-size:40px;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -239,6 +245,86 @@ p {
   height: 100px;
   object-fit: cover;
   border-radius: 100%;
+}
+
+/*contact*/
+.contact_page {
+  display: grid;
+  grid-template-columns: 10px 560px 20px 512px 10px;
+  grid-template-rows: 2;
+}
+.socialLink {
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  text-decoration: none;
+}
+.interest {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: 'Abril Fatface', cursive;
+}
+.interestContent {
+  background-color: #B0C6A6;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 10px;
+}
+.socials {
+  grid-column: 4;
+  grid-row: 1;
+  font-family: 'Abril Fatface', cursive;
+}
+.socialsContent {
+  background-color: #B0C6A6;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  height: 210px;
+}
+input[type="submit"] {
+  font-family: 'Abril Fatface', cursive;
+  font-size:25px;
+  background-color: transparent;
+  border-color:transparent;
+  margin-top: 10px;
+  margin-left: 40%;
+  display: block;
+}
+input[type="text"] {
+  width: 500px;
+}
+input[type = "tel"] {
+  width: 409px;
+}
+input[type = "email"] {
+  width: 500px;
+}
+.socialPair {
+  display: flex;
+  margin-top: 30px;
+}
+.socialPair i {
+  margin-right: 5px;
+}
+.socialPair a {
+  margin-top: 10px;
+}
+
+.interestPair{
+  display:flex;
+  margin-top: 10px;
+}
+.interestPair label {
+  margin-right: 5px;
+}
+
+.comments {
+  margin-top: 10px;
+}
+textarea {
+  display: block;
+  margin-top: 3px;
+  width: 530px;
 }
 
 @media screen and (width > 525px) {
