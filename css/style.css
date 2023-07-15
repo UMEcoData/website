@@ -206,6 +206,14 @@ p {
   margin: 20px;
 }
 
+.alumni {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
 .card_top {
   display: flex;
   flex-direction: column;
