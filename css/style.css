@@ -182,6 +182,15 @@ h5 {
   font-size: 40px;
 }
 
+h6 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 16px;
+}
+h7 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 12px;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -279,23 +288,11 @@ p {
 
 .interestContent {
   background-color: #B0C6A6;
+  margin-top:10px;
   border-radius: 15px;
   border: 2px solid black;
   padding: 10px;
-}
-
-.socials {
-  grid-column: 4;
-  grid-row: 1;
-  font-family: 'Abril Fatface', cursive;
-}
-
-.socialsContent {
-  background-color: #B0C6A6;
-  border-radius: 15px;
-  border: 2px solid black;
-  padding: 10px;
-  height: 210px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
 }
 
 input[type="submit"] {
@@ -306,31 +303,6 @@ input[type="submit"] {
   margin-top: 10px;
   margin-left: 40%;
   display: block;
-}
-
-input[type="text"] {
-  width: 500px;
-}
-
-input[type="tel"] {
-  width: 409px;
-}
-
-input[type="email"] {
-  width: 500px;
-}
-
-.socialPair {
-  display: flex;
-  margin-top: 30px;
-}
-
-.socialPair i {
-  margin-right: 5px;
-}
-
-.socialPair a {
-  margin-top: 10px;
 }
 
 .interestPair {
@@ -350,6 +322,82 @@ textarea {
   display: block;
   margin-top: 3px;
   width: 530px;
+}
+
+input[type="text"] {
+  width: 500px;
+}
+
+input[type="tel"] {
+  width: 409px;
+}
+
+input[type="email"] {
+  width: 500px;
+}
+
+.socials {
+  grid-column: 4;
+  grid-row: 1;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.socialsContent {
+  margin-top:10px;
+  background-color: #B0C6A6;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  height: 210px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
+}
+
+.socialPair {
+  display: flex;
+  margin-top: 30px;
+}
+
+.socialPair i {
+  margin-right: 5px;
+}
+
+.socialPair a {
+  margin-top: 10px;
+}
+
+.leadership {
+  grid-column: 1/5;
+  grid-row: 2;
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 30px;
+}
+
+.leadershipContent {
+  background-color: #B0C6A6;
+  margin-top:10px;
+  border-radius: 15px;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
+}
+
+.leadership_photo {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.contact_card {
+  flex-basis: 200px;
+  margin: 8px;
+}
+.contact_description {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  height: 65px;
 }
 
 @media screen and (width > 525px) {
