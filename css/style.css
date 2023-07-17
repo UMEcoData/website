@@ -140,9 +140,20 @@ i {
 }
 
 .footer_links {
-  display: flex;
+  display: none;
   margin: auto;
   width: 125px;
+  justify-content: space-between;
+  background-color: #B0C6A6;
+  padding: 15px;
+  border-radius: 50px;
+  border: 2px #000 solid;
+}
+
+.footer_links2 {
+  display: flex;
+  margin: auto;
+  width: 275px;
   justify-content: space-between;
   background-color: #B0C6A6;
   padding: 15px;
@@ -483,6 +494,14 @@ input[type="email"] {
 
   .team_card {
     width: 250px;
+  }
+
+  .footer_links {
+    display: flex;
+  }
+
+  .footer_links2 {
+    display: none;
   }
 }
 
