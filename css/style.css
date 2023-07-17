@@ -100,9 +100,9 @@ nav {
 
 h1 {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 2em;
+  font-size: 42px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0px;
   letter-spacing: 0.5vw;
 }
@@ -414,7 +414,8 @@ input[type="email"] {
   }
 
   h1 {
-    font-size: auto;
+    font-size: 2em;
+    font-weight: 600;
   }
 
   .header_content {
