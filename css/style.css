@@ -64,7 +64,7 @@ nav {
   top: 17vw;
   border-radius: 5px 0 5px 5px;
   width: 40%;
-  height: 25vh;
+  height: auto;
 }
 
 #nav_one ul {
@@ -80,14 +80,14 @@ nav {
 
 #nav_one ul li {
   text-align: center;
-  padding: 3px;
+  padding: 10px;
   margin: 2px 4px;
   border-radius: 4px;
   border: 1px #000 solid;
-  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 40px;
 }
 
 #nav_one ul li:hover {
@@ -100,7 +100,7 @@ nav {
 
 h1 {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 42px;
+  font-size: 72px;
   text-align: center;
   font-weight: 400;
   margin: 0px;
@@ -159,7 +159,7 @@ iframe {
 
 h2 {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 2em;
+  font-size: 64px;
   text-align: center;
   font-weight: 400;
   margin: 0px;
@@ -169,13 +169,13 @@ h2 {
 
 h3 {
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 54px;
   text-align: center;
 }
 
 h4 {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 48px;
   font-style: italic;
   text-align: center;
 }
@@ -197,7 +197,7 @@ h7 {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 40px;
   font-weight: 300;
   letter-spacing: -0.5px;
   line-height: 1.55;
@@ -260,13 +260,13 @@ p {
   border: 1px #000 solid;
   padding: 10px;
   margin: 10px;
-  width: 90%;
+  width: 98%;
   background-color: #f0f0f0;
 }
 
 .team_photo {
-  width: 125px;
-  height: 125px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 100%;
 }
@@ -406,7 +406,7 @@ input[type="email"] {
   height: 65px;
 }
 
-@media screen and (width > 525px) {
+@media screen and (width > 475px) {
 
   #nav_one,
   #hamburger {
@@ -416,6 +416,27 @@ input[type="email"] {
   h1 {
     font-size: 2em;
     font-weight: 600;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 20px
+  }
+
+  .team_photo {
+    width: 125px;
+    height: 125px;
   }
 
   .header_content {
