@@ -60,9 +60,9 @@ nav {
   position: absolute;
   background-color: #D9D9D9;
   border: 2px #000 solid;
-  right: 8vw;
+  right: 6.5vw;
   top: 17vw;
-  border-radius: 10px 0px 10px 10px;
+  border-radius: 5px 0 5px 5px;
   width: 40%;
   height: 25vh;
 }
@@ -70,21 +70,24 @@ nav {
 #nav_one ul {
   display: flex;
   flex-direction: column;
-  /* height: 50%; */
   list-style: none;
   height: 100%;
   width: 100%;
   padding: 0px;
   margin: 0px;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 #nav_one ul li {
   text-align: center;
   padding: 3px;
-  margin: 0px 12px;
+  margin: 2px 4px;
   border-radius: 4px;
   border: 1px #000 solid;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #nav_one ul li:hover {
@@ -186,6 +189,7 @@ h6 {
   font-family: 'Abril Fatface', cursive;
   font-size: 16px;
 }
+
 h7 {
   font-family: 'Abril Fatface', cursive;
   font-size: 12px;
@@ -256,7 +260,7 @@ p {
   border: 1px #000 solid;
   padding: 10px;
   margin: 10px;
-  width: 250px;
+  width: 90%;
   background-color: #f0f0f0;
 }
 
@@ -288,9 +292,9 @@ p {
 
 .interestContent {
   background-color: #B0C6A6;
-  margin-top:10px;
+  margin-top: 10px;
   border-radius: 15px;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 10px;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
 }
@@ -343,10 +347,10 @@ input[type="email"] {
 }
 
 .socialsContent {
-  margin-top:10px;
+  margin-top: 10px;
   background-color: #B0C6A6;
   border-radius: 15px;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 10px;
   height: 210px;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
@@ -374,9 +378,9 @@ input[type="email"] {
 
 .leadershipContent {
   background-color: #B0C6A6;
-  margin-top:10px;
+  margin-top: 10px;
   border-radius: 15px;
-  border: 2px solid black;
+  border: 1px solid black;
   padding: 10px;
   display: flex;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3)
@@ -388,10 +392,12 @@ input[type="email"] {
   object-fit: cover;
   border-radius: 100%;
 }
+
 .contact_card {
   flex-basis: 200px;
   margin: 8px;
 }
+
 .contact_description {
   background-color: white;
   border-radius: 10px;
@@ -451,6 +457,10 @@ input[type="email"] {
 
   #nav_two ul li:hover {
     text-decoration: underline;
+  }
+
+  .team_card {
+    width: 250px;
   }
 }
 
