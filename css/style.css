@@ -6,6 +6,7 @@ body {
   background-image: url("../images/background.png");
   background-size: 400px;
   background-repeat: repeat;
+  background-position: -100px;
   height: 100%;
 }
 
@@ -192,12 +193,12 @@ h4 {
 }
 
 h5 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Anonymous Pro', monospace;
   font-size: 40px;
 }
 
 h6 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Open Sans", sans-serif;
   font-size: 35px;
 }
 
@@ -289,12 +290,12 @@ p {
 .interest {
   grid-column: 2;
   grid-row: 1;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 .interestContent {
   background-color: #B0C6A6;
-  margin-top: 50px;
+  margin-top: 28px;
   border-radius: 15px;
   border: 1px solid black;
   padding: 10px;
@@ -306,12 +307,18 @@ p {
 .interestContent input[type="submit"] {
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Open Sans", sans-serif;
+  color: black;
   font-size: 25px;
   background-color: transparent;
   border-color: transparent;
+  border-radius: 5px;
   margin-top: 10px;
   display: block;
+}
+
+.interestContent input[type="submit"]:hover {
+  background-color: white;
 }
 
 
@@ -325,24 +332,25 @@ p {
 }
 
 .comments {
-  display:flex;
+  display: flex;
   margin-top: 10px;
 }
 
 textarea {
   display: block;
-  /* margin-top: 3px; */
   width: 100%;
 }
 
-input[type="text"],input[type="tel"],input[type="email"] {
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
   width: 100%;
 }
 
 .socials {
   grid-column: 4;
   grid-row: 1;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Open Sans", sans-serif;
 }
 
 .socialsContent {
@@ -352,7 +360,6 @@ input[type="text"],input[type="tel"],input[type="email"] {
   border: 1px solid black;
   padding: 10px;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
-  /* display: flex; */
 }
 
 .socialPair {
@@ -372,7 +379,7 @@ input[type="text"],input[type="tel"],input[type="email"] {
 }
 
 .socialLink {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Open Sans", sans-serif;
   color: black;
   text-decoration: none;
 }
@@ -380,7 +387,7 @@ input[type="text"],input[type="tel"],input[type="email"] {
 .leadership {
   grid-column: 1/5;
   grid-row: 2;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Open Sans", sans-serif;
   margin-top: 30px;
 }
 
@@ -402,6 +409,7 @@ input[type="text"],input[type="tel"],input[type="email"] {
   height: 250px;
   object-fit: cover;
   border-radius: 100%;
+  margin-bottom: 8px;
 }
 
 .contact_card {
@@ -420,12 +428,105 @@ input[type="text"],input[type="tel"],input[type="email"] {
   padding: 10px;
 }
 
-
-.role, .contact_email {
-  font-family: 'Abril Fatface', cursive;
+.role,
+.contact_email {
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
 }
 
+/* projects page */
+.projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects ul li {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+  margin: 20px;
+}
+
+.projects ul li:hover {
+  opacity: 0.6;
+}
+
+.projects ul li a {
+  word-wrap: break-word;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.project_img {
+  width: 100%;
+}
+
+.projects ul li:nth-child(3n) {
+  background-color: #C5D1BF;
+}
+
+.projects ul li:nth-child(6n + 1) {
+  background-color: #909E8E;
+}
+
+.projects ul li:nth-child(6n + 5) {
+  background-color: #8EB371;
+}
+
+
+/* Resources Page */
+
+.materials {
+  margin: 15px;
+  list-style: square;
+}
+
+.materials>li {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  line-height: 1.55;
+}
+
+.materials>li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.resources-text {
+  display: flex;
+  row-gap: 15px;
+  column-gap: 15px;
+  padding: 5px 0px 0px 0px;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.resources {
+  width: 400px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  height: auto;
+  padding: 10px;
+}
+
+.resources:nth-child(3n) {
+  background-color: #C5D1BF;
+}
+
+.resources:nth-child(6n + 1) {
+  background-color: #909E8E;
+}
+
+.resources:nth-child(6n + 5) {
+  background-color: #8EB371;
+}
 
 @media screen and (width > 475px) {
 
@@ -450,13 +551,17 @@ input[type="text"],input[type="tel"],input[type="email"] {
   h4 {
     font-size: 20px;
   }
-  
+
   h6 {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   p {
-    font-size: 20px
+    font-size: 20px;
+  }
+
+  .materials>li {
+    font-size: 20px;
   }
 
   .team_photo {
@@ -519,19 +624,22 @@ input[type="text"],input[type="tel"],input[type="email"] {
   }
 
   .leadership_photo {
-    width: 125px;
-    height: 125px;
+    width: 180px;
+    height: 180px;
   }
-  
+
   .contact_description {
     background-color: white;
     border-radius: 10px;
     border: 1px solid black;
     padding: 10px;
   }
-  .role, .contact_email {
+
+  .role,
+  .contact_email {
     font-size: 12px;
   }
+
   .contact_card {
     flex-basis: 200px;
     display: flex;
@@ -539,13 +647,22 @@ input[type="text"],input[type="tel"],input[type="email"] {
     justify-content: center;
     align-items: center;
     margin: 8px;
-}
+  }
+
   .interestContent {
     margin-top: 10px;
   }
 
   .socialsContent {
     margin-top: 10px;
+  }
+
+  .projects ul li {
+    width: 220px;
+  }
+
+  .project_img {
+    width: 220px;
   }
 
 
@@ -599,5 +716,13 @@ input[type="text"],input[type="tel"],input[type="email"] {
 
   .socialPair i {
     margin-right: 20px;
+  }
+
+  .projects ul li {
+    width: 250px;
+  }
+
+  .project_img {
+    width: 250px;
   }
 }
