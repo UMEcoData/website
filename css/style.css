@@ -319,6 +319,7 @@ p {
 
 .interestContent input[type="submit"]:hover {
   text-decoration: underline;
+  cursor:pointer;
 }
 
 
