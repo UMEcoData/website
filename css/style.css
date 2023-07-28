@@ -516,16 +516,28 @@ input[type="email"] {
   padding: 10px;
 }
 
-.resources:nth-child(3n) {
+.resources:nth-child(6n + 1) {
   background-color: #C5D1BF;
 }
 
-.resources:nth-child(6n + 1) {
+.resources:nth-child(3n) {
   background-color: #909E8E;
 }
 
 .resources:nth-child(6n + 5) {
   background-color: #8EB371;
+}
+
+.resources-icon-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+}
+
+.resources-icon {
+  width: 100%;
 }
 
 @media screen and (width > 475px) {
@@ -674,7 +686,7 @@ input[type="email"] {
 @media screen and (width > 750px) {
   h1 {
     letter-spacing: 1vw;
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   header {
@@ -688,7 +700,8 @@ input[type="email"] {
   }
 
   .header_content {
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
+    row-gap: 10px;
   }
 
   .logo_link {
