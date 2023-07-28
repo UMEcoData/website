@@ -318,7 +318,7 @@ p {
 }
 
 .interestContent input[type="submit"]:hover {
-  background-color: white;
+  text-decoration: underline;
 }
 
 
