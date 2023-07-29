@@ -76,6 +76,7 @@ nav {
   width: 100%;
   padding: 0px;
   margin: 0px;
+  z-index: 1;
   /* justify-content: space-around; */
 }
 
@@ -210,6 +211,26 @@ p {
   line-height: 1.55;
 }
 
+/* Index styling */
+#chartdiv {
+  width: 100%;
+  height: 500px;
+  max-width: 100%;
+  /* z-index: -100; */
+  /* background-color:#adc3e6; */
+}
+
+.about {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.about>h2 {
+  text-align: start;
+}
+
 /* Members page styling */
 .eboard {
   display: flex;
@@ -319,7 +340,7 @@ p {
 
 .interestContent input[type="submit"]:hover {
   text-decoration: underline;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 
@@ -510,11 +531,11 @@ input[type="email"] {
 }
 
 .resources {
-  width: 400px;
+  width: 98%;
   border: 2px solid #000;
   border-radius: 10px;
   height: auto;
-  padding: 10px;
+  padding: 10px 40px;
 }
 
 .resources:nth-child(6n + 1) {
@@ -531,14 +552,14 @@ input[type="email"] {
 
 .resources-icon-container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-items: center;
   padding: 10px;
 }
 
 .resources-icon {
-  width: 100%;
+  display: none !important;
 }
 
 @media screen and (width > 475px) {
@@ -628,6 +649,11 @@ input[type="email"] {
     width: 250px;
   }
 
+  .resources {
+    width: 400px;
+    padding: 10px;
+  }
+
   .footer_links {
     display: flex;
   }
@@ -678,6 +704,14 @@ input[type="email"] {
     width: 220px;
   }
 
+  .resources-icon-container {
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .resources-icon {
+    display: block !important;
+    width: 100%;
+  }
 
 
 }
@@ -738,5 +772,11 @@ input[type="email"] {
 
   .project_img {
     width: 250px;
+  }
+
+  .index-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 }
