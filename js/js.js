@@ -12,7 +12,7 @@ document.querySelector("#hamburger").addEventListener("click", function() {
     }
     else {
         document.querySelector("#nav_one").style.display = "block"
-        document.querySelector("#hamburger").style.border = "2px #000 solid"
+        // document.querySelector("#hamburger").style.border = "2px #000 solid"
         document.querySelector("#hamburger").style.padding = "2px"
     }
 })
