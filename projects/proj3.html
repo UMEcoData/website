@@ -3,16 +3,45 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Project</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="icon" href="favicon.png">
+  <title>Project3</title>
+  <link rel="stylesheet" href="../css/html5reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/projects.css">
+  <script src="https://kit.fontawesome.com/6c81e0b95a.js" crossorigin="anonymous"></script>  
 </head>
 
 <body>
+  <header>
+    <div class="header_content">
+      <a class="logo_link" href="index.html"><img class="logo" src="../images/logo.png" alt="EcoData Logo"></a>
+      <h1>California Wildfires Modeling</h1>
+      <i id="hamburger" class="fa-solid fa-bars fa-3x largeicon"></i>
+
+      <nav id="nav_one">
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="team.html">Members</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav id="nav_two">
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="team.html">Members</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
   <main>
     <div class="page-title">
-      <h1 class="p-title">California Wildfires Data Exploration and Modeling</h1>
+      <h1 class="p-title"></h1>
       <h3 class="lead">Tiffany Tan</h3>
     </div>
 
@@ -42,9 +71,26 @@
 
     <div class="subsections">
       <h3 class="section">Data Visualizations:</h3>
-      <p>
-        <!--INSERT PICTURE LATER-->
-      </p>
+      <h4>Correlation Matrices:</h4>
+      <div class="image-container">
+        <img src="../project_imgs/project3_image1.png" alt="correlation matrix 1">
+        <img src="../project_imgs/project3_image2.png" alt="correlation matrix 2">
+      </div>
+
+      <h4>Acres Burned Distribution:</h4>
+      <div class="image-container">
+        <img src="../project_imgs/project3_image3.png" alt="acres burned distribution bar chart">
+      </div>
+
+      <h4>Injury Distribution:</h4>
+      <div class="image-container">
+        <img src="../project_imgs/project3_image4.png" alt="injury distribution bar chart">
+      </div>
+
+      <h4>Structures Damaged per Year:</h4>
+      <div class="image-container">
+        <img src="../project_imgs/project3_image5.png" alt="number of structures burned bar chart">
+      </div>
     </div>
 
 
@@ -58,10 +104,41 @@ https://docs.google.com/spreadsheets/d/1fmUuh2e8-4xpa-TVr9iUOtnPmR6R3XU2ARLZ4wea
       </p>
     </div>
 
+    <div class="subsections">
+      <h3>Project Members:</h3>
 
+      <div class="members">
+        <div class="team_card">
+          <div class="card_top">
+            <img class="team_photo" src="../images/TiffanyT.png" alt="Tiffany Tan's Headshot" />
+            <h3>Tiffany Tan</h3>
+          </div>
+          <div class="card_bottom">
+            <p><strong>Graduated:</strong> Class of 2023</p>
+          <p><strong>Major:</strong> Computer Science and Data Science</p>
+          </div>
+        </div>
+      </div>
+   </div>
 
 
   </main>
+
+  <footer>
+    <div class="footer_links">
+      <a href="https://www.facebook.com/umEcoData/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/umecodata/?hl=en"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      <a href="https://github.com/UMEcoData"><i class="fa-brands fa-github fa-2x"></i></a>
+    </div>
+
+    <div class="footer_links2">
+      <a href="https://www.facebook.com/umEcoData/"><i class="fa-brands fa-facebook fa-5x"></i></a>
+      <a href="https://www.instagram.com/umecodata/?hl=en"><i class="fa-brands fa-instagram fa-5x"></i></a>
+      <a href="https://github.com/UMEcoData"><i class="fa-brands fa-github fa-5x"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/js.js"></script>
 
 </body>
 
