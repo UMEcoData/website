@@ -457,10 +457,16 @@ input[type="email"] {
 }
 
 /* projects page */
+
    .projects ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+     background-color: #abc3a2;
+     margin-left:-13px;
+     margin-right:-13px;
+     margin-top: -7px;
+     margin-bottom: -7px;
     }
 
     .projects ul li {
@@ -493,27 +499,43 @@ input[type="email"] {
       text-decoration: underline; 
     }
 
-/* .img_border {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 50px;
-  padding: 20px;
-  width: 100%;
-} */
-
-/* .projects ul li:nth-child(3n) {
-  background-color: #C5D1BF;
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #abc3a2;
 }
 
-.projects ul li:nth-child(6n + 1) {
-  background-color: #909E8E;
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  float: left;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  background-color: #abc3a2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.projects ul li:nth-child(6n + 5) {
-  background-color: #8EB371;
-} */
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  background-color: #abc3a2;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
 
 
 /* Resources Page */
@@ -724,6 +746,7 @@ input[type="email"] {
 
   .project_img {
     width: 220px;
+    height: 180px;
   }
 
   /* .img_border {
@@ -793,11 +816,11 @@ input[type="email"] {
   }
 
   .projects ul li {
-    width: 280px;
+    width: 260px;
   }
 
   .project_img {
-    width: 280px;
+    width: 260px;
   }
 
   /* .img_border {
