@@ -345,21 +345,23 @@ p {
 
 
 .interestPair {
-  display: flex;
+  display: grid; /* Use grid layout for interestPair container */
+  grid-template-columns: 1fr 8fr 0.2fr; /* Two columns with equal width */
+  gap: 10px; /* Add a gap between the input elements */
   margin-top: 10px;
 }
 
 .interestPair label {
-  margin-right: 5px;
+  display: flex;
+  align-items: center;
 }
 
-.comments {
+/* .comments {
   display: flex;
   margin-top: 10px;
-}
+} */
 
 textarea {
-  display: block;
   width: 100%;
 }
 
@@ -404,6 +406,10 @@ input[type="email"] {
   font-family: "Open Sans", sans-serif;
   color: black;
   text-decoration: none;
+}
+
+.socialLink:hover {
+  text-decoration: underline;
 }
 
 .leadership {
@@ -515,6 +521,7 @@ input[type="email"] {
   background-color: #abc3a2;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Change background color of buttons on hover */
@@ -601,6 +608,8 @@ input[type="email"] {
 .resources-icon {
   display: none !important;
 }
+
+
 
 @media screen and (width > 475px) {
 

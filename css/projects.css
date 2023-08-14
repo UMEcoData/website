@@ -74,6 +74,30 @@ h4 {
   border-radius: 10px;
 }
 
+.data ul{
+    display: flex; /* Use flex display to align images side by side */
+    flex-wrap: wrap; /* Enable wrapping to handle smaller screen sizes */
+}
+.data ul li {
+  list-style-type: none;
+  margin: 30px;
+}
+.data ul li:hover { 
+  text-decoration: none;
+}
+
+.data ul li img {
+    height: 230px;
+}
+
+.data p {
+   font-family: 'Lisu Bosa', serif;
+  line-height: 1.2;
+  padding: 0px 20px 20px 20px;
+  font-weight: 200;
+}
+
+
 @media screen and (width > 475px) {
   .image-container img {
     width: 45vw;

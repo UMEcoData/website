@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>MiCorps Data Visualization</title>
+  <link rel="stylesheet" href="../css/html5reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/projects.css">
+  <script src="https://kit.fontawesome.com/6c81e0b95a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header_content">
+      <a class="logo_link" href="index.html"><img class="logo" src="../images/logo.png" alt="EcoData Logo"></a>
+      <h1>MiCorps Data Visualization</h1>
+      <i id="hamburger" class="fa-solid fa-bars fa-3x largeicon"></i>
+
+      <nav id="nav_one">
+        <ul>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/team.html">Members</a></li>
+          <li><a href="/calendar.html">Calendar</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav id="nav_two">
+        <ul>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/team.html">Members</a></li>
+          <li><a href="/calendar.html">Calendar</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-title">
+      <h3 class="lead">Project Leads: Adam Kuplicki, Mya Strayer</h3>
+      <h4 class="lead">Past Contributions: Daniel Schneider, Sydney Deal</h4>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Motivation:</h3>
+      <p>
+        We wanted to work with Michigan Clean Water Corps because they are a part of EGLE (Michigan Department of
+        Environment, Great Lakes, and Energy) and are a volunteer-run organization monitoring of Michigan’s freshwater
+        resources. They disseminate water quality data from streams and lakes across the state and make the data
+        available to other organizations.
+      </p>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Methods:</h3>
+      <p>We pulled data from the MiCorps website includes the lake name, the datetime it was sampled, along with
+        variables of interest such as: Phosphorus, Chlorophyll and dissolved oxygen levels; secchi depth, and the lake’s
+        temperature at varying depths. After cleaning and merging all of the datasets, we created a correlation matrix
+        over time
+        Unsurprisingly, variables such as secchi depth and phosphorus and depth and temperature are correlated
+        Interestingly, DO Levels and Phosphorus become increasingly negatively correlated. Majority of our time was
+        spent on cleaning that messy, messy data so we could actually use it.
+        We changed the datetime to just being the year, and then created aggregate sums for each of the variables of
+        interest (in ArcGIS plots).
+
+
+
+      </p>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Findings:</h3>
+      <p>
+        Unsurprisingly, variables such as secchi depth and phosphorus and depth and temperature are correlated.
+        Interestingly, DO Levels and Phosphorus become increasingly negatively correlated. We also discovered that there
+        are increasing Ice-Off Dates which means that the last data of ice on the lake is increasing. The implications
+        for this are longer winters, impacts on bird migrations since they come there when it’s warm, but there’s no
+        food due to the ice, and novel weather patterns as a product of climate change. A potential cause for this we
+        looked into was phosphorous, but the data does not look promising.
+      </p>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Data Visualizations:</h3>
+      <div class="data">
+        <!--INSERT PICTURE LATER-->
+        <ul>
+          <li>
+            <img src="../project_imgs/miCorp1.gif">
+            <p>Correlation Heatmap</p>
+          </li>
+          <li>
+            <img src="../project_imgs/miCorp5.gif">
+            <p>ArcGIS Visualiation of Clorophyll Levels from 2003-2022</p>
+          </li>
+          <li>
+            <img src="../project_imgs/miCorp2.png">
+            <p> Increasing Ice-Off Dates</p>
+          </li>
+          <li>
+            <img src="../project_imgs/miCorp3.png">
+            <p>Phosphorous as a Cause (Fig 1)</p>
+          </li>
+          <li>
+            <img src="../project_imgs/miCorp4.png">
+            <p>Phosphorous as a Cause (Fig 2)</p>
+          </li>
+          <li>
+            <img src="../project_imgs/miCorp6.png">
+            <p>Phosphorous as a Cause (Fig 3)</p>
+          </li>
+        </ul>
+
+      </div>
+      <p>
+        <a href="https://github.com/haleyej/clean_water_corps_data">https://github.com/haleyej/clean_water_corps_data
+        </a>
+      </p>
+    </div>
+
+
+    <div class="subsections">
+      <h3 class="section">Resources:</h3>
+      <p>
+        <a href="https://data.micorps.net/view/lake/">https://data.micorps.net/view/lake/</a>
+      </p>
+    </div>
+
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="footer_links">
+      <a href="https://www.facebook.com/umEcoData/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/umecodata/?hl=en"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      <a href="https://github.com/UMEcoData"><i class="fa-brands fa-github fa-2x"></i></a>
+    </div>
+
+    <div class="footer_links2">
+      <a href="https://www.facebook.com/umEcoData/"><i class="fa-brands fa-facebook fa-5x"></i></a>
+      <a href="https://www.instagram.com/umecodata/?hl=en"><i class="fa-brands fa-instagram fa-5x"></i></a>
+      <a href="https://github.com/UMEcoData"><i class="fa-brands fa-github fa-5x"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/js.js"></script>
+
+</body>
+
+</html>

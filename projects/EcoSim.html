@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>EcoSim</title>
+  <link rel="stylesheet" href="../css/html5reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/projects.css">
+  <script src="https://kit.fontawesome.com/6c81e0b95a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header_content">
+      <a class="logo_link" href="index.html"><img class="logo" src="../images/logo.png" alt="EcoData Logo"></a>
+      <h1>EcoSim</h1>
+      <i id="hamburger" class="fa-solid fa-bars fa-3x largeicon"></i>
+
+      <nav id="nav_one">
+        <ul>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/team.html">Members</a></li>
+          <li><a href="/calendar.html">Calendar</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav id="nav_two">
+        <ul>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="/team.html">Members</a></li>
+          <li><a href="/calendar.html">Calendar</a></li>
+          <li><a href="/resources.html">Resources</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-title">
+      <h3 class="lead">Project Lead: Karl Godard</h3>
+      <h4 class="lead">Past Contributions: Charlotte Parent, Jonathan Sarasa, Netra Jayagopal, Adam Kuplicki, Mya
+        Strayer, Alex Xu, Emily Teh, Debangi Mohanta, Maxcy Denmark, Noah Young, Ashley Philip</h4>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Motivation:</h3>
+      <p>
+        To create a simulation that models population dynamics in an ecosystem.
+      </p>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Methods:</h3>
+      <p>
+        We created this project using Python and making various classes that controlled each component of the
+        simulation. The Action class is what defines all the possible actions an animal can make such as reproducing,
+        drinking, moving, eating, dying. The Animal class outlines the scenarios in which all of these actions would be
+        performed. The Prey and Predator classes are derived from the Animal class and define their respective food
+        types, and specific interactions. The Tile class is used to search what lives in an area. Visualization class
+        uses pygame and pixel art created by our members to visualize all the aspects of the simulation. All of these
+        classes are used by the Map class to produce a map complete with all the ecosystem's plants, animals, and water.
+        The class Animal Params is used as an input into the simulation class to define important variables that can be
+        changed to get different simulations. Everything is then run by the Simulation class, which calls these classes
+        in a loop and creates a graph that visualizes the ecosystem upon ending.
+      </p>
+
+      <p> We also used the Rosenzweig MacArthur Theory of Predator-Prey interaction to model how they interact in this
+        simulated ecosystem. <img src="../project_imgs/ecosim1.png" width="60%"></p>
+
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Findings:</h3>
+      <p>
+        Parameters such as: starting distribution, hunger/thirst related behaviors, and reproduction tendencies can be
+        tweaked in order to create a stable equilibrium.
+
+
+      </p>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section"> Game Visualizations:</h3>
+      <p>
+        <!--INSERT PICTURE LATER-->
+        <img src="../project_imgs/ecosim2.png" width="60%">
+        <img src="../project_imgs/ecosim3.png" width="55%">
+      </p>
+    </div>
+
+
+    <div class="subsections">
+      <h3 class="section">Codebase:</h3>
+      <p>
+        <a
+          href="https://replit.com/@KarlGodard/EcoSim-Visualization-2#main.py">https://replit.com/@KarlGodard/EcoSim-Visualization-2#main.py</a>
+
+      </p>
+    </div>
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="footer_links">
+      <a href="https://www.facebook.com/umEcoData/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+      <a href="https://www.instagram.com/umecodata/?hl=en"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      <a href="https://github.com/UMEcoData"><i class="fa-brands fa-github fa-2x"></i></a>
+    </div>
+
+    <div class="footer_links2">
+      <a href="https://www.facebook.com/umEcoData/"><i class="fa-brands fa-facebook fa-5x"></i></a>
+      <a href="https://www.instagram.com/umecodata/?hl=en"><i class="fa-brands fa-instagram fa-5x"></i></a>
+      <a href="https://github.com/UMEcoData"><i class="fa-brands fa-github fa-5x"></i></a>
+    </div>
+  </footer>
+
+  <script src="js/js.js"></script>
+
+</body>
+
+</html>
