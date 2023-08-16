@@ -345,9 +345,12 @@ p {
 
 
 .interestPair {
-  display: grid; /* Use grid layout for interestPair container */
-  grid-template-columns: 1fr 8fr 0.2fr; /* Two columns with equal width */
-  gap: 10px; /* Add a gap between the input elements */
+  display: grid;
+  /* Use grid layout for interestPair container */
+  grid-template-columns: 1fr 8fr 0.2fr;
+  /* Two columns with equal width */
+  gap: 10px;
+  /* Add a gap between the input elements */
   margin-top: 10px;
 }
 
@@ -464,46 +467,47 @@ input[type="email"] {
 
 /* projects page */
 
-   .projects ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-     background-color: #abc3a2;
-     margin-left:-13px;
-     margin-right:-13px;
-     margin-top: -7px;
-     margin-bottom: -7px;
-    }
+.projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #abc3a2;
+  margin-left: -13px;
+  margin-right: -13px;
+  margin-top: -7px;
+  margin-bottom: -7px;
+}
 
-    .projects ul li {
-      margin: 20px;
-      background-color: none;
-      width: 100%;
-      text-align: center;
-      border: 4px dashed white; /* Add the dashed border style */
-      padding: 10px;
-      border-radius: 10px;
-    }
+.projects ul li {
+  margin: 20px;
+  background-color: none;
+  width: 100%;
+  text-align: center;
+  border: 4px dashed white;
+  /* Add the dashed border style */
+  padding: 10px;
+  border-radius: 10px;
+}
 
-    .projects ul li .project_img {
-      display: block;
-      width: 100%;
-      border-radius: 50px;
-    }
+.projects ul li .project_img {
+  display: block;
+  width: 100%;
+  border-radius: 50px;
+}
 
-    .projects ul li a {
-      display: block;
-      word-wrap: break-word;
-      font-family: 'Open Sans', sans-serif;
-      text-decoration: none;
-      font-size: 15px;
-      color: black;
-      margin-top: 10px;
-    }
+.projects ul li a {
+  display: block;
+  word-wrap: break-word;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+}
 
-    .projects ul li a:hover {
-      text-decoration: underline; 
-    }
+.projects ul li a:hover {
+  text-decoration: underline;
+}
 
 .tab {
   overflow: hidden;
@@ -513,7 +517,7 @@ input[type="email"] {
 /* Style the buttons that are used to open the tab content */
 .tab button {
   float: left;
-  border:none;
+  border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
@@ -565,6 +569,10 @@ input[type="email"] {
 .materials>li:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.materials a {
+  color: #000;
 }
 
 .resources-text {

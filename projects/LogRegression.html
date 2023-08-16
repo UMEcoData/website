@@ -3,18 +3,19 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Project11</title>
+  <title>Wind vs. Solar Logistic Regressions</title>
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
   <link rel="stylesheet" href="../css/html5reset.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/projects.css">
-  <script src="https://kit.fontawesome.com/6c81e0b95a.js" crossorigin="anonymous"></script>  
+  <script src="https://kit.fontawesome.com/6c81e0b95a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
     <div class="header_content">
-      <a class="logo_link" href="index.html"><img class="logo" src="../images/logo.png" alt="EcoData Logo"></a>
-      <h1>Projects</h1>
+      <a class="logo_link" href="../index.html"><img class="logo" src="../images/logo.png" alt="EcoData Logo"></a>
+      <h1>Wind vs. Solar Logistic Regressions</h1>
       <i id="hamburger" class="fa-solid fa-bars fa-3x largeicon"></i>
 
       <nav id="nav_one">
@@ -38,61 +39,72 @@
       </nav>
     </div>
   </header>
-  
- <main>
-<div class="page-title">
-   <h1 class="p-title">Logistic Regression of Wind vs Solar Counties</h1>
-  <h3 class="lead">Project Lead: Angela Voit</h3>
-  <h4 class="lead">Project Member: Geric Panr</h4>
-</div>
-   
-<div class="subsections">
- <h3 class="section">Motivation:</h3>
-<p>
-Compete an ML project using the Yale Climate Opinion Survey data. After looking into other related county level data, we decide it would be interesting to examine the differences between coal counties and wind counties.
-</p>
-</div>
 
-   <div class="subsections">
- <h3 class="section">Methods:</h3>
-<p>
-  Python analysis in Jupiter notebook with data from Yale, the US census bureau, and the US Energy Information Administration
-
-
-</p>
-</div>
-
-   <div class="subsections">
- <h3 class="section">Findings:</h3>
-<p>
-  We started by visualizing our coal versus wind county-level data. Then we developed a logistic regression using sklearn and the liblinear model for an accuracy of 88%. Finally, we examined the coeffs of the regression model which we suspect to have been highly influenced by outliers and multicollinearity despite the overall accuracy of the model. Although the model can classify coal versus wind counties, the categories display many similarities along the opinion measurements.
-
-(Note: for the visualizations displayed below, "not wind" indicates a coal county.)
-</p>
-</div>
+  <main>
+    <div class="page-title">
+      <h3 class="lead">Project Lead: Angela Voit</h3>
+      <h4 class="lead">Project Member: Geric Panr</h4>
+    </div>
 
     <div class="subsections">
- <h3 class="section">Data Visualizations:</h3>
-<p>
- <!--INSERT PICTURE LATER-->
-</p>
-</div>
+      <h3 class="section">Motivation:</h3>
+      <p>
+        Compete an ML project using the Yale Climate Opinion Survey data. After looking into other related county level
+        data, we decide it would be interesting to examine the differences between coal counties and wind counties.
+      </p>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Methods:</h3>
+      <p>
+        Python analysis in Jupiter notebook with data from Yale, the US census bureau, and the US Energy Information
+        Administration
+
+
+      </p>
+    </div>
+
+    <div class="subsections">
+      <h3 class="section">Findings:</h3>
+      <p>
+        We started by visualizing our coal versus wind county-level data. Then we developed a logistic regression using
+        sklearn and the liblinear model for an accuracy of 88%. Finally, we examined the coeffs of the regression model
+        which we suspect to have been highly influenced by outliers and multicollinearity despite the overall accuracy
+        of the model. Although the model can classify coal versus wind counties, the categories display many
+        similarities along the opinion measurements.
+
+        (Note: for the visualizations displayed below, "not wind" indicates a coal county.)
+      </p>
+    </div>
+
+    <!-- <div class="subsections">
+      <h3 class="section">Data Visualizations:</h3>
+      <p>
+        <img src="../project_imgs/wind_regression.jpg" width="98%">
+      </p>
+    </div> -->
 
 
     <div class="subsections">
- <h3 class="section">Cleaned Dataset:</h3>
-<p>
-  <a href="https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data">https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data</a>
+      <h3 class="section">Cleaned Dataset:</h3>
+      <p>
+        <a
+          href="https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data">https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data</a>
 
-</p>
-</div>
+      </p>
+    </div>
 
-<p>Sources: 
-<a href="https://www.outdoorphotographer.com/blog/on-assignment-nextera-energy-resources//">https://www.outdoorphotographer.com/blog/on-assignment-nextera-energy-resources//</a>
-</p>
+    <div class="subsections">
+      <h3 class="section">Sources:</h3>
+      <p>
+        <a
+          href="https://www.outdoorphotographer.com/blog/on-assignment-nextera-energy-resources//">https://www.outdoorphotographer.com/blog/on-assignment-nextera-energy-resources//</a>
 
-   
- </main>
+      </p>
+    </div>
+
+
+  </main>
 
   <footer>
     <div class="footer_links">
@@ -109,7 +121,7 @@ Compete an ML project using the Yale Climate Opinion Survey data. After looking 
   </footer>
 
   <script src="js/js.js"></script>
- 
+
 </body>
 
 </html>
