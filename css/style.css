@@ -494,6 +494,9 @@ input[type="email"] {
   width: 100%;
   border-radius: 50px;
 }
+.projects ul li .project_img:hover {
+ opacity: 0.4;
+}
 
 .projects ul li a {
   display: block;
