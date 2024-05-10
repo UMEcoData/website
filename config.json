@@ -1,0 +1,65 @@
+[
+    {
+        "url": "/team",
+        "template": "team-temp.html",
+        "context": {
+            "eboard": [
+               {
+                "name": "Cameron Moy",
+                "role": "Executive Director",
+                "year": "Class of 2024",
+                "major": "Information Analysis",
+                "minor": "Social Class & Inequality Studies and Vocal Performance",
+                "interests": "Addressing environmental and social justice issues using data driven solutions",
+                "image": "images/CameronM.jpg"
+               }, 
+               {
+                "name": "Cameron Moy",
+                "role": "Executive Director",
+                "year": "Class of 2024",
+                "major": "Information Analysis",
+                "minor": "Social Class & Inequality Studies and Vocal Performance",
+                "interests": "Addressing environmental and social justice issues using data driven solutions",
+                "image": "images/CameronM.jpg"
+               }
+               
+            ],
+            "general": [
+                {
+                    "name": "Cameron Moy",
+                    "year": "Class of 2024",
+                    "major": "Information Analysis",
+                    "minor": "Social Class & Inequality Studies and Vocal Performance",
+                    "interests": "Addressing environmental and social justice issues using data driven solutions",
+                    "image": "images/CameronM.jpg"
+                   }, 
+                   {
+                    "name": "Cameron Moy",
+                    "year": "Class of 2024",
+                    "major": "Information Analysis",
+                    "minor": "Social Class & Inequality Studies and Vocal Performance",
+                    "interests": "Addressing environmental and social justice issues using data driven solutions",
+                    "image": "images/CameronM.jpg"
+                   }
+            ], 
+            "alumni": [
+                {
+                    "name": "Cameron Moy",
+                    "year": "Class of 2024",
+                    "major": "Information Analysis",
+                    "minor": "Social Class & Inequality Studies and Vocal Performance",
+                    "interests": "Addressing environmental and social justice issues using data driven solutions",
+                    "image": "images/CameronM.jpg"
+                   }, 
+                   {
+                    "name": "Cameron Moy",
+                    "year": "Class of 2024",
+                    "major": "Information Analysis",
+                    "minor": "Social Class & Inequality Studies and Vocal Performance",
+                    "interests": "Addressing environmental and social justice issues using data driven solutions",
+                    "image": "images/CameronM.jpg"
+                   }
+            ]
+        }
+    }
+]
