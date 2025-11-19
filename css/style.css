@@ -3,11 +3,12 @@
 
 /* Background image styling */
 body {
-  background-image: url("../images/background.png");
+  background-color:#f3f7f0;
+  /* background-image: url("../images/background.png");
   background-size: 400px;
   background-repeat: repeat;
   background-position: -100px;
-  height: 100%;
+  height: 100%; */
 }
 
 main {
@@ -462,31 +463,48 @@ input[type="email"] {
 /* projects page */
 
 .projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 24px;         
+  background-color:#f2f5f0; 
+  padding: 30px;          
+  border-radius: 20px;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: #abc3a2;
   margin-left: -13px;
   margin-right: -13px;
   margin-top: -7px;
-  margin-bottom: -7px;
+  margin-bottom: -7px; */
 }
 
 .projects ul li {
-  margin: 20px;
-  background-color: none;
-  width: 100%;
+  margin: 16x;
+  background-color: #ffffff;
+  width: 260px;
+  padding: 16px;
   text-align: center;
-  border: 4px dashed white;
-  /* Add the dashed border style */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);  /* soft shadow */
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease;
+  /*Add Project Tags
+
+
+  /* REMOVE DASHED BOARDER */
+  /* border: 4px dashed white;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 .projects ul li .project_img {
   display: block;
   width: 100%;
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 
 .projects ul li .project_img:hover {
@@ -546,6 +564,25 @@ input[type="email"] {
   border-top: none;
 }
 
+/*Style the tags */
+.tag-list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.tag {
+  background-color: #e7eedf;
+  color: #4b4b4b;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 12px;
+  display: inline-block;
+  font-weight: 500;
+  border: 1px solid #d4ddce;
+}
 
 /* Resources Page */
 

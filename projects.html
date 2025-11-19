@@ -41,11 +41,32 @@
 
   <main>
     <div class="projects">
-      <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'All')">All Projects</button>
-        <button class="tablinks" onclick="openTab(event, '2022-23')">2022-23 Projects</button>
-        <button class="tablinks" onclick="openTab(event, 'Past')">Past Projects</button>
-      </div>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Current')">Current Projects!</button>
+      <button class="tablinks" onclick="openTab(event, 'All')">All Projects</button>
+      <button class="tablinks" onclick="openTab(event, '2022-23')">2022–23 Projects</button>
+      <button class="tablinks" onclick="openTab(event, 'Past')">Past Projects</button>
+    </div>
+
+    <div id="Current" class="tabcontent">
+      <ul>
+        <li data-tags="game simulation javascript">
+          <a href="projects/sample.html">
+            <img class="project_img" src="images/logo.png" alt="sample">
+            <span class="project-title">Sample Project</span>
+          </a>
+
+          <div class="tag-list">
+            <span class="tag">Game</span>
+            <span class="tag">Simulation</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
       <div id="All" class="tabcontent">
         <ul>
           <li>
@@ -282,7 +303,7 @@
     }
 
     // Set the default tab to be displayed when the page loads
-    document.getElementById("All").style.display = "block";
+    document.getElementById("Current").style.display = "block";
   </script>
 </body>
 
