@@ -3,12 +3,11 @@
 
 /* Background image styling */
 body {
-  background-color:#f3f7f0;
-  /* background-image: url("../images/background.png");
+  background-image: url("../images/background.png");
   background-size: 400px;
   background-repeat: repeat;
   background-position: -100px;
-  height: 100%; */
+  height: 100%;
 }
 
 main {
@@ -54,7 +53,7 @@ header {
 }
 
 nav {
-  font-family: 'Anonymous Pro', monospace;
+font-family: 'Anonymous Pro', monospace;
 }
 
 #nav_one {
@@ -103,11 +102,11 @@ nav {
 
 h1 {
   font-family: 'Anonymous Pro', monospace;
-  font-size: 72px;
+  font-size: 75px;
   text-align: center;
   font-weight: 400;
   margin: 0px;
-  letter-spacing: 0.5vw;
+  letter-spacing: 0.3vw;
 }
 
 .logo_link {
@@ -564,7 +563,7 @@ input[type="email"] {
   border-top: none;
 }
 
-/*Style the tags */
+/*Style the tags 
 .tag-list {
   margin-top: 10px;
   display: flex;
@@ -821,7 +820,6 @@ input[type="email"] {
 
 @media screen and (width > 750px) {
   h1 {
-    letter-spacing: 1vw;
     font-size: 40px;
   }
 
