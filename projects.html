@@ -20,7 +20,6 @@
       <nav id="nav_one">
         <ul>
           <li><a href="projects.html">Projects</a></li>
-          
           <li><a href="calendar.html">Calendar</a></li>
           <li><a href="resources.html">Resources</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -30,7 +29,6 @@
       <nav id="nav_two">
         <ul>
           <li><a href="projects.html">Projects</a></li>
-       
           <li><a href="calendar.html">Calendar</a></li>
           <li><a href="resources.html">Resources</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -42,221 +40,152 @@
   <main>
     <div class="projects">
     <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'Current')">Current Projects!</button>
-      <button class="tablinks" onclick="openTab(event, 'All')">All Projects</button>
-      <button class="tablinks" onclick="openTab(event, '2022-23')">2022–23 Projects</button>
+      <button class="tablinks" onclick="openTab(event, 'Current')">Current Projects</button>
       <button class="tablinks" onclick="openTab(event, 'Past')">Past Projects</button>
+      <button class="tablinks" onclick="openTab(event, 'App/Web')">Apps/Websites</button>
+      <button class="tablinks" onclick="openTab(event, 'ML')">Machine Learning Projecs</button>
+      <button class="tablinks" onclick="openTab(event, 'Other')">Other</button>
     </div>
 
+
+<!--CURRENT PROJECTS-->
     <div id="Current" class="tabcontent">
       <ul>
-        <li data-tags="game simulation javascript">
-          <a href="projects/sample.html">
-            <img class="project_img" src="images/logo.png" alt="sample">
-            <span class="project-title">Sample Project</span>
+        <li>
+          <a href="projects/greatLakes.html">
+            <img class="project_img" src="images/logo.png" alt="Great Lakes">
+            <span class="project-title">The Great Lakes Project</span>
           </a>
         </li>
-
+<!--INSERT NEW PROJECTS HERE-->
       </ul>
     </div>
-  </div>
 
-      <div id="All" class="tabcontent">
-        <ul>
-          <li>
-            <a href="projects/EcoSim.html">
-            <img class="project_img" src="project_imgs/ecosim.png" alt="EcoSim">
-            EcoSim</a>
-          </li>
-          <li>
-            <a href="projects/UrbanFarms.html">
-            <img class="project_img" src="project_imgs/urbanFarms.jpeg" alt="Urban Farms">
-            Urban Farms Data Visualization</a>
-          </li>
-          <li>
-            <a href="projects/SustainableCities.html">
-            <img class="project_img" src="project_imgs/sustCities.png" alt="Sustainable Cities">
-            Sustainable Cities</a>
-          </li>
-          <li>
-            <a href="projects/MiCorpsWater.html">
-            <img class="project_img" src="project_imgs/micorps.jpeg" alt="MiCorps Water">
-            Michigan Clean Water Corps</a>
-          </li>
-          <li>
-            <a href="projects/InvasiveSpecies.html">
-            <img class="project_img" src="project_imgs/invasiveSpecies.jpeg" alt="Invasive Species">
-            Invasive Species Website</a>
-          </li>
-          <li>
-             <a href="projects/SustainableFashion.html">
-            <img class="project_img" src="project_imgs/sustFashion.jpeg" alt="Sustainable Fashion">
-           Sustainable Fashion Website</a>
-          </li>
-          <li>
-            <a href="projects/CandidateSite.html">
-            <img class="project_img" src="project_imgs/candidateSite.png" alt="Candidate Site">
-            Candidate Site</a>
-          </li>
-          <li>
-            <a href="projects/WildfirePredictionML.html">
-            <img class="project_img" src="project_imgs/wildfirePred.JPG" alt="Wildfire Prediction ML">
-            Wildfire Prediction Machine Learning</a>
-          </li>
-          <li>
-             <a href="projects/ModelingPolarIce.html">
-            <img class="project_img" src="project_imgs/polarIce.png" alt="Polar Ice">
-           Modeling the Extent of Polar Ice in the Arctic</a>
-          </li>
-          <!-- <li><img class="project_img" src="project_imgs/environmental_ml_image.png" alt="Environ ML">
-        <a href="projects/EnvironmentalML.html">Environmental Machine Learning</a>
-      </li> -->
-          <li>
-             <a href="projects/CaliWildfires.html">
-            <img class="project_img" src="project_imgs/cali_wildfire.jpg" alt="Cali Wildfire">
-           California Wildfires Data Exploration and Modeling</a>
-          </li>
-          <li>
-            <a href="projects/EcoUpdate.html">
-            <img class="project_img" src="project_imgs/eco_update.jpg" alt="Eco-Update">
-            Eco-Update Synthesizer</a>
-          </li>
-          <li>
-             <a href="projects/AlgalBlooms.html">
-            <img class="project_img" src="project_imgs/algal_blooms.png" alt="Algal Blooms">
-           Exploring causes of Harmful Algal Blooms in Lake Erie</a>
-          </li>
-          <li>
-             <a href="projects/ChemicalHeatmap.html">
-            <img class="project_img" src="project_imgs/chemical_heatmap.png" alt="Chemical Heatmap">
-           Michigan Chemical Heatmap</a>
-          </li>
-          <!-- <li>
-        <img class="project_img" src="project_imgs/ecotech_blog_image.png" alt="Eco Tech Blog">
-        <a href="projects/EcoTechBlog.html">Eco-Tech Blog</a>
-      </li> -->
-          <!-- <li>
-        <img class="project_img" src="project_imgs/pollution.jpg" alt="Pollution">
-        <a href="projects/PollutionData.html">Visualizing 2017 Pollution Data on a International Scale</a>
-      </li> -->
-          <li>
-             <a href="projects/FastFashionCalc.html">
-            <img class="project_img" src="project_imgs/fast_fashion.jpeg" alt="Fast Fashion">
-           Fast Fashion Water Calculator</a>
-          </li>
-          <li>
-            <a href="projects/BathroomWaterCalc.html">
-            <img class="project_img" src="project_imgs/DailyUsage.jpeg" alt="Daily Usage">
-            Bathroom Water Calculator</a>
-          </li>
-          <li>
-            <a href="projects/LogRegression.html">
-            <img class="project_img" src="project_imgs/wind_regression.jpg" alt="Wind Regression">
-            Logistic Regression of Wind vs Solar Counties</a>
-          </li>
-        </ul>
-      </div>
-      <div id="2022-23" class="tabcontent">
-        <ul>
-          <li>
-            <a href="projects/EcoSim.html">
-            <img class="project_img" src="project_imgs/ecosim.png" alt="EcoSim">
-            EcoSim</a>
-          </li>
-          <li>
-            <a href="projects/UrbanFarms.html">
-            <img class="project_img" src="project_imgs/urbanFarms.jpeg" alt="Urban Farms">
-            Urban Farms Data Visualization</a>
-          </li>
-          <li>
-            <a href="projects/SustainableCities.html">
-            <img class="project_img" src="project_imgs/sustCities.png" alt="Sustainable Cities">
-            Sustainable Cities</a>
-          </li>
-          <li>
-            <a href="projects/MiCorpsWater.html">
-            <img class="project_img" src="project_imgs/micorps.jpeg" alt="MiCorps Water">
-            Michigan Clean Water Corps</a>
-          </li>
-          <li>
-            <a href="projects/InvasiveSpecies.html">
-            <img class="project_img" src="project_imgs/invasiveSpecies.jpeg" alt="Invasive Species">
-            Invasive Species Website</a>
-          </li>
-          <li>
-            <a href="projects/SustainableFashion.html">
-            <img class="project_img" src="project_imgs/sustFashion.jpeg" alt="Sustainable Fashion">
-            Sustainable Fashion Website</a>
-          </li>
-          <li>
-            <a href="projects/CandidateSite.html">
-            <img class="project_img" src="project_imgs/candidateSite.png" alt="Candidate Site">
-            Candidate Site</a>
-          </li>
-          <li>
-             <a href="projects/WildfirePredictionML.html">
-            <img class="project_img" src="project_imgs/wildfirePred.JPG" alt="Wildfire Prediction ML">
-           Wildfire Prediction Machine Learning</a>
-          </li>
-        </ul>
-      </div>
+
+<!--PAST PROJECTS-->
       <div id="Past" class="tabcontent">
         <ul>
           <li>
+            <a href="projects/EcoSim.html">
+            <img class="project_img" src="project_imgs/ecosim.png" alt="EcoSim">
+            <span class="project-title">EcoSim</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="projects/UrbanFarms.html">
+            <img class="project_img" src="project_imgs/urbanFarms.jpeg" alt="Urban Farms">
+            <span class="project-title">Urban Farms Data Visualization</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="projects/SustainableCities.html">
+            <img class="project_img" src="project_imgs/sustCities.png" alt="Sustainable Cities">
+            <span class="project-title">Sustainable Cities</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="projects/MiCorpsWater.html">
+            <img class="project_img" src="project_imgs/micorps.jpeg" alt="MiCorps Water">
+            <span class="project-title">Michigan Clean Water Corps</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="projects/InvasiveSpecies.html">
+            <img class="project_img" src="project_imgs/invasiveSpecies.jpeg" alt="Invasive Species">
+            <span class="project-title">Invasive Species Website</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="projects/SustainableFashion.html">
+            <img class="project_img" src="project_imgs/greenTradeLogo.png" alt="Sustainable Fashion">
+              <span class="project-title">The Green Trade Website</span>
+            </a>
+            </li>
+          
+          <li>
+            <a href="projects/CandidateSite.html">
+            <img class="project_img" src="project_imgs/candidateSite.png" alt="Candidate Site">
+            <span class="project-title">Canidate Site</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="projects/WildfirePredictionML.html">
+            <img class="project_img" src="project_imgs/wildfirePred.JPG" alt="Wildfire Prediction ML">
+            <span class="project-title">Wildfire Prediction Machine Learning</span>
+            </a>
+          </li>
+
+          <li>
             <a href="projects/ModelingPolarIce.html">
             <img class="project_img" src="project_imgs/polarIce.png" alt="Polar Ice">
-            Modeling the Extent of Polar Ice in the Arctic</a>
+            <span class="project-title">Modeling the Extent of Polar Ice in the Artic</span>
+            </a>
           </li>
-          <!-- <li><img class="project_img" src="project_imgs/environmental_ml_image.png" alt="Environ ML">
-        <a href="projects/EnvironmentalML.html">Environmental Machine Learning</a>
-      </li> -->
+
           <li>
             <a href="projects/CaliWildfires.html">
             <img class="project_img" src="project_imgs/cali_wildfire.jpg" alt="Cali Wildfire">
-            California Wildfires Data Exploration and Modeling</a>
+            <span class="project-title">California Wildfires Data Exploration and Modeling</span>
+            </a>
           </li>
+
           <li>
             <a href="projects/EcoUpdate.html">
             <img class="project_img" src="project_imgs/eco_update.jpg" alt="Eco-Update">
-            Eco-Update Synthesizer</a>
+            <span class="project-title">Eco-Update Synthesizer</span>
+            </a>
           </li>
+
           <li>
             <a href="projects/AlgalBlooms.html">
             <img class="project_img" src="project_imgs/algal_blooms.png" alt="Algal Blooms">
-            Exploring causes of Harmful Algal Blooms in Lake Erie</a>
+            <span class="project-title">Exploring Causes of Harmful Algal Blooms in Lake Erie</span>
+          </a>
           </li>
+
           <li>
             <a href="projects/ChemicalHeatmap.html">
             <img class="project_img" src="project_imgs/chemical_heatmap.png" alt="Chemical Heatmap">
-            Michigan Chemical Heatmap</a>
+            <span class="project-title">Michigan Chemical Heatmap</span>
+            </a>
           </li>
-          <!-- <li>
-        <img class="project_img" src="project_imgs/ecotech_blog_image.png" alt="Eco Tech Blog">
-        <a href="projects/EcoTechBlog.html">Eco-Tech Blog</a>
-      </li> -->
-          <!-- <li>
-        <img class="project_img" src="project_imgs/pollution.jpg" alt="Pollution">
-        <a href="projects/PollutionData.html">Visualizing 2017 Pollution Data on a International Scale</a>
-      </li> -->
+
           <li>
             <a href="projects/FastFashionCalc.html">
             <img class="project_img" src="project_imgs/fast_fashion.jpeg" alt="Fast Fashion">
-            Fast Fashion Water Calculator</a>
+            <span class="project-title">Fast Fashion Water Calculator</span>
+            </a>
           </li>
+
           <li>
             <a href="projects/BathroomWaterCalc.html">
             <img class="project_img" src="project_imgs/DailyUsage.jpeg" alt="Daily Usage">
-            Bathroom Water Calculator</a>
+            <span class="project-title">Bathroom Water Calculator</span>
+            </a>
           </li>
+
           <li>
             <a href="projects/LogRegression.html">
             <img class="project_img" src="project_imgs/wind_regression.jpg" alt="Wind Regression">
-            Logistic Regression of Wind vs Solar Counties</a>
+            <span class="project-title">Logistic Regression of Wind vs Solar Counties</span>
+            </a>
           </li>
+
+        </ul>
+      </div>
+
+<!--APPS AND WEBSITES-->
+      <div id="App/Web" class="tabcontent">
+        <ul>
         </ul>
       </div>
     </div>
-
   </main>
 
 <footer>

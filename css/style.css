@@ -125,11 +125,6 @@ h1 {
   cursor: pointer;
 }
 
-/* footer */
-/* .fa-instagram {
-    color: rgb(255, 255, 255);
-    background-color: #000;
-} */
 
 footer {
   position: sticky;
@@ -467,23 +462,15 @@ input[type="email"] {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   gap: 24px;         
   background-color:#f2f5f0; 
   padding: 30px;          
   border-radius: 20px;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #abc3a2;
-  margin-left: -13px;
-  margin-right: -13px;
-  margin-top: -7px;
-  margin-bottom: -7px; */
 }
 
 .projects ul li {
-  margin: 16x;
+  margin: 16px;
   background-color: #ffffff;
   width: 260px;
   padding: 16px;
@@ -491,19 +478,19 @@ input[type="email"] {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);  /* soft shadow */
   transition: transform 0.2s ease,
               box-shadow 0.2s ease;
-  /*Add Project Tags
+}
 
-
-  /* REMOVE DASHED BOARDER */
-  /* border: 4px dashed white;
-  padding: 10px;
-  border-radius: 10px; */
+.project-title {
+  display: block;
+  margin-top: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .projects ul li .project_img {
   display: block;
   width: 100%;
-  /* border-radius: 50px; */
 }
 
 .projects ul li .project_img:hover {
@@ -561,26 +548,6 @@ input[type="email"] {
   display: none;
   padding: 6px 12px;
   border-top: none;
-}
-
-/*Style the tags 
-.tag-list {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  justify-content: center;
-}
-
-.tag {
-  background-color: #e7eedf;
-  color: #4b4b4b;
-  padding: 4px 10px;
-  font-size: 12px;
-  border-radius: 12px;
-  display: inline-block;
-  font-weight: 500;
-  border: 1px solid #d4ddce;
 }
 
 /* Resources Page */
@@ -800,10 +767,6 @@ input[type="email"] {
     height: 180px;
   }
 
-  /* .img_border {
-    width: 220px;
-  } */
-
   .resources-icon-container {
     grid-template-columns: 1fr 3fr;
   }
@@ -812,7 +775,6 @@ input[type="email"] {
     display: block !important;
     width: 100%;
   }
-
 
 }
 
@@ -873,10 +835,6 @@ input[type="email"] {
     width: 260px;
   }
 
-  /* .img_border {
-    width: 250px;
-  }
- */
   .index-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
