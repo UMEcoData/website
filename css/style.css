@@ -353,11 +353,6 @@ p {
   align-items: center;
 }
 
-/* .comments {
-  display: flex;
-  margin-top: 10px;
-} */
-
 textarea {
   width: 100%;
 }
@@ -509,6 +504,14 @@ input[type="email"] {
 
 .projects ul li a:hover {
   text-decoration: underline;
+}
+
+.project-year {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  text-align: left;
+  margin-left: -160px; 
 }
 
 .tab {
